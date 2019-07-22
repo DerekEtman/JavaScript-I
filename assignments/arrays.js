@@ -68,30 +68,27 @@ let inventory = [{"id":1,"car_make":"Lincoln","car_model":"Navigator","car_year"
 
 
 
-console.log("Car", inventory[32].id, "Is a", inventory[32].car_year, inventory[32].car_make, inventory[32].car_model );
+// console.log("Car", inventory[32].id, "Is a", inventory[32].car_year, inventory[32].car_make, inventory[32].car_model );
 
-// console.log("this is the id", inventory[2].id);
-
-
-
-// console.log(inventory());
 
 // ==== Challenge 2 ====
 // The dealer needs the information on the last car in their inventory.  What is the make and model of the last car in the inventory?  Log the make and model into the console.
     let lastCar = 50 -1;
 
-    console.log(inventory[lastCar].car_make, inventory[lastCar].car_model);
+    // console.log(inventory[lastCar].car_make, inventory[lastCar].car_model);
 
 // ==== Challenge 3 ====
 // The marketing team wants the car models listed alphabetically on the website. Sort all the car model names into alphabetical order and log the results in the console
 
-    // const alphaModels = inventory.filter(
-    //     function(model){
-    //          const firstList = model.car_model;
-    //     }
-    // );
 
-    // console.log(alphaModels.sort());
+    const alphaModels = inventory.filter(
+        function(model){
+             const firstList = model.car_model;
+             console.log(firstList);
+            }
+    );
+
+    console.log(alphaModels);
 
     // console.log(alphaModels.model);
 
