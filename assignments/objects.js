@@ -138,7 +138,7 @@ const parent ={
 
 // const parent = {}
 
-console.log(parent)
+// console.log(parent)
 
 
 // Log the parent object's name
